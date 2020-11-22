@@ -1,0 +1,70 @@
+
+
+@media screen and (min-width:992px ){
+	.grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.grid div{
+	background: #ecf0f1;
+	padding: 1em;
+}
+
+.grid div:hover{
+	border: 1px solid #f1c40f;
+}
+
+
+
+h1{
+	text-align: center;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+		.grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.grid div{
+	background: #ecf0f1;
+	padding: 1em;
+}
+
+.grid div:hover{
+	border: 1px solid #f1c40f;
+}
+
+
+
+
+h1{
+	text-align: center;
+}
+
+}
+
+@media screen and (max-width: 767px){
+		.grid{
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+.grid div{
+	background: #ecf0f1;
+	padding: 1em;
+}
+
+.grid div:hover{
+	border: 1px solid #f1c40f;
+}
+
+
+
+h1{
+	text-align: center;
+}
+}
